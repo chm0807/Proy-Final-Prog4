@@ -1,0 +1,84 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: rgb(249, 109, 1) !important;
+    /* Color de fondo de la barra */
+}
+
+/* navbar.css */
+.navbar-small {
+    height: 30px; /* Ajusta este valor según tus necesidades */
+    padding: 0.5rem 1rem;
+    background-color: rgb(75, 73, 73) !important;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha */
+    align-items: center; /* Centrar verticalmente */
+    width: 100%;
+}
+
+.icon-container .btn-link {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Ajusta el espacio entre los iconos */
+}
+
+.icon-small {
+    height: 15px; /* Ajusta el tamaño de los iconos en el navbar pequeño */
+    width: auto;
+}
+
+.navbar-large {
+    height: 80px; /* Ajusta este valor según tus necesidades */
+    padding: 1rem 1.5rem;
+}
+
+#large-navbar .logo-large {
+    height: 78px; /* Ajusta el tamaño del logo en el navbar grande */
+    width: auto;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #333333;
+    /* Color del texto del nombre de la marca */
+    font-size: 1.5rem;
+    /* Tamaño del texto del nombre de la marca */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    /* Color del texto de los enlaces */
+    margin-right: 10px;
+    /* Espaciado entre los enlaces */
+}
+
+.navbar-nav .dropdown-toggle {
+    color: white !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: rgb(249, 109, 1);
+    /* Color de fondo del menú desplegable */
+}
+
+.dropdown-item {
+    color: white;
+    /* Color del texto del elemento del menú desplegable */
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    /* Color de fondo al pasar el mouse sobre el elemento del menú desplegable */
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    align-items: center; /* Centra los enlaces verticalmente */
+    flex: 1;
+}
+.mr-2 {
+    margin-right: 5px;
+}

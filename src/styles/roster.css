@@ -1,0 +1,78 @@
+.roster {
+    padding: 20px;
+}
+
+.roster h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: flex-start; /* Alinear la barra de búsqueda a la izquierda */
+    margin-bottom: 20px;
+}
+
+.form-inline .form-control {
+    width: 250px; /* Ancho más corto para la barra de búsqueda */
+    margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
+    color: black;
+    border: 1px solid gray; /* Añadir un borde para mejor visualización */
+    font-size: 14px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: flex-start; /* Alinear los botones a la izquierda */
+    max-width: fit-content; /* Permitir que el grupo de botones se ajuste al ancho de su contenido */
+    margin-bottom: 20px; /* Espacio de separación inferior */
+}
+
+.btn-group > .btn {
+    margin: 5px;
+    padding: 10px 20px; /* Aumentar el padding para que los botones sean más anchos */
+    background-color: white; /* Color de fondo blanco */
+    color: black; /* Texto negro para una mejor legibilidad */
+    border: 1px solid gray; /* Añadir un borde para mejor visualización */
+    font-size: 14px; /* Ajustar el tamaño de la fuente */
+    text-align: center; /* Alinear el texto al centro */
+    white-space: nowrap; /* Evitar que el texto se envuelva */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para hover */
+    border-radius: 5px !important; /* Redondear las esquinas */
+}
+
+.btn-group > .btn:hover,
+.btn-group > .btn:focus,
+.btn-group > .btn-search:hover,
+.btn-group > .btn-search:focus {
+    background-color: gray; /* Cambiar el color de fondo en hover/focus */
+    color: white; /* Cambiar el color del texto en hover/focus */
+    border-color: gray; /* Cambiar el color del borde en hover/focus */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: none !important;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.table tbody tr:nth-child(even) td {
+    background-color: rgba(238, 236, 236, 0.668); /* Fondo blanco para filas pares */
+}
+
+.table tbody tr:nth-child(odd) td {
+    background-color: white; /* Fondo gris para filas impares */
+}
+
+.table thead th {
+    background-color: black;
+    color: white;
+}
+
